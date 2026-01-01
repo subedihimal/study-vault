@@ -1,3 +1,6 @@
+CULT FIT APP
+Second Brain App requirements saved in messenger
+
 TO ALL
 add rate limiter
 
