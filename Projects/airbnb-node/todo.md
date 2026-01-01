@@ -8,3 +8,8 @@ add rate limiter
 add edit hotel api
 
 ### Booking Service
+
+
+##TOPICS REVISIT
+[[dead letter Queue]]
+[[BUllmq]]
