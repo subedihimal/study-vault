@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04cfae1a20c8a586",
+        "id": "13be346a02160597",
         "type": "tabs",
         "children": [
           {
-            "id": "96cda213eeb7b0eb",
+            "id": "1698ec76b5439e98",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/airbnb-node/todo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "todo"
+              "title": "New tab"
             }
           }
         ]
@@ -183,17 +179,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "96cda213eeb7b0eb",
+  "active": "98e1f75bf38b4023",
   "lastOpenFiles": [
-    "Projects/airbnb-node/todo.md",
     "Study/dsa/Array.md",
+    "Study/dsa/Time and Space Complexity.md",
+    "Blogs/Why Version Control Exists - The Pendrive Problem.md",
+    "zDiagrams/Blogs/blog1.jpg",
+    "Why Version Control Exists - The Pendrive Problem.pdf",
+    "zDiagrams/Study",
+    "zDiagrams/Projects",
+    "zDiagrams/Blogs",
+    "zDiagrams",
+    "README.md",
+    "Projects/airbnb-node/todo.md",
+    "Blogs",
     "Study/dsa",
     "Study/git/Git.md",
     "Projects/airbnb-node",
     "Projects/Todo",
     "Projects",
-    "Study/git",
-    "Welcome.md",
-    "Study"
+    "Welcome.md"
   ]
 }
