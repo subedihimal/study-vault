@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13be346a02160597",
+        "id": "dfd441c0f647c89f",
         "type": "tabs",
         "children": [
           {
-            "id": "1698ec76b5439e98",
+            "id": "627ab39930325e4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -90,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Git"
+              "title": "Backlinks"
             }
           },
           {
@@ -181,8 +184,11 @@
   },
   "active": "98e1f75bf38b4023",
   "lastOpenFiles": [
-    "Study/dsa/Array.md",
-    "Study/dsa/Time and Space Complexity.md",
+    "Untitled.base",
+    "Study/dsa/DSA.md",
+    "Study/dsa/2 Time and Space Complexity.md",
+    "Study/dsa/1 Array.md",
+    "Study/git/Git.md",
     "Blogs/Why Version Control Exists - The Pendrive Problem.md",
     "zDiagrams/Blogs/blog1.jpg",
     "Why Version Control Exists - The Pendrive Problem.pdf",
@@ -194,10 +200,8 @@
     "Projects/airbnb-node/todo.md",
     "Blogs",
     "Study/dsa",
-    "Study/git/Git.md",
     "Projects/airbnb-node",
     "Projects/Todo",
-    "Projects",
     "Welcome.md"
   ]
 }
