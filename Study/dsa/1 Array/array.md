@@ -1,7 +1,11 @@
+---
+tags:
+  - DSA
+---
 An array in Java is a data structure that stores multiple values of the same data type in a single variable. Arrays have a fixed size, and elements are stored in contiguous memory locations.  
 Each element is accessed using an index, starting from `0`.
 
-**Taking Input in Java**
+**Taking Input in **
 Scanner scanner= new Scanner(System.in);
 System.out.println("Enter a Number:");
 int a = scanner.nextInt();

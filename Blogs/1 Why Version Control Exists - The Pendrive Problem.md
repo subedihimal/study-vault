@@ -1,3 +1,7 @@
+---
+tags:
+  - Blogs
+---
 
 #### Why Version Control Exists ?
 Lets say, A developer decided to make  a personal project. He setup the project in his computer and start writing code. In the  beginning the code was of few lines. He didn't have any issue keeping track of what changes he made, at times when he faced a bug or an error he could easily debug. Everything was working fine at the beginning. After a month or so, his consistency paid off and the project grew to have thousands of lines of code. Now, a new problem arose if he faced a bug or wanted to add some experimental feature, and things didn't work out, he would have hard time changing back all the thousands of lines of code to the time everything worked fine.

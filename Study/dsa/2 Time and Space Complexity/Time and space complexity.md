@@ -1,3 +1,8 @@
+---
+tags:
+  - DSA
+---
+
 ### Time Complexity
 Time complexity refers to how the runtime of an algorithm changes **(number of operation)** as the input size changes.
 
@@ -7,7 +12,6 @@ Time Complexity **!=**  time taken for execution
 θ     : θ(n)   = Average Case (theta)
 Ω : Ω(n) = Best Case (Omega)
 
-		
 Whats the Time complexity of this?
 1.
  ```java
@@ -16,10 +20,13 @@ Whats the Time complexity of this?
 	System.out.println("hello");
  }
  ```
-Output: 0(n)
+Answer: (n)
 
 2.
 ```java
-
-
+for(int i =1; i<10; i++){
+	System.out.println("hello");
+}
 ```
+Answer: O(10) witch is ultimately ---> O(1)
+It is not dependent on the input

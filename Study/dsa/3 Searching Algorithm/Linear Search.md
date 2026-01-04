@@ -1,3 +1,4 @@
+
 Finds the element by checking each item one by one form the start until the target is found or the list ends.
 
 Time Complexity: O(n)
