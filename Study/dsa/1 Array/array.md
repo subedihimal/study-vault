@@ -17,5 +17,3 @@ int[] arr = new int[5];
 
 **Printing all the elements in an array**
 for (int n : arr) { System.out.println(n); }
-
-

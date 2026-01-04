@@ -1,2 +1,4 @@
-[[1 Array]]
-[[2 Time and Space Complexity]]
+[[array]]
+[[Time and space complexity]]
+[[SearchingAlgorithm]]
+[[Sorting Algorithm]]
