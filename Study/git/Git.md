@@ -1,3 +1,8 @@
+---
+tags:
+  - study
+---
+
 Git allows you to track different versions of a project over time.
 
 - **`git init`**  

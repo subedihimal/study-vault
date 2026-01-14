@@ -1,3 +1,8 @@
+---
+tags:
+  - study
+---
+
 Design patterns solve maintainability & readability issues, NOT performance/scalability
 
 **The Problem**
