@@ -26,11 +26,11 @@ Git allows you to track different versions of a project over time.
 - **`git diff <old_commit> <new_commit>`**  
   Shows the differences between two commits.
 
-- 
+**Fixing Errors or mistakes in commit**
 
-
-
-
-
-
-
+- `git revert <hash>`
+	Creates a new commit that is negative of the commit u want to revert
+- `git reset --hard <hash>`
+	Puts head to the commit mentioned resulting in all the commits after that hash being deleted.
+- `git reset <hash>` -> without the --hard
+	Puts the head to the commit and all the changes afte it is kept in the staging area
