@@ -108,3 +108,22 @@ add2 := &i
 fmt.Println("address:", add2, "value in address:", *add2)
 //
 ```
+
+---
+### Go Module
+To have a multi file setup you need to create go module
+Sytax:
+`go mod init <moduleName>`
+now you can easily import other files by
+
+`import test <modulename>/<appname>`
+
+**Important for cross package**
+The function name has to have capital starting letter to make it public and be able to  be accessed throughout the module
+
+**if multiple file in the main module you will need to run**
+**`go run *.go`
+or else it wont compile all the files and you will get error while running
+
+You can use build system like  bazzle to avoid this 
+
