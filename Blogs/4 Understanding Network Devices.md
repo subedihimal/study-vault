@@ -2,7 +2,6 @@
 tags:
   - Blogs
 ---
-
 What solution comes to mind when the internet stops working. Probably to restart the router, right ?. If you were born before the early 2000, you will probably remember there being two routers one with an antenna and one without one. The one without the antenna is called a modem and the one with the antenna is called a router. Nowadays you have a router that has modem built in it, or if you use optical fiber for the internet, modem is not required at all, so the newer generation of people aren't familiar with the word modem.
 
 So the question may arise in your mind what is a modem and a router ?

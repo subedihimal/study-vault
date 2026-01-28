@@ -27,6 +27,6 @@ The main selling point of TCP is its reliableness and correctness. TCP ensure th
 **Closing of TCP Connection**
 
 TCP connection is closed using a 4 way handshake
-![[Pasted image 20260128181638.png]]
+![[6.png]]
 
 Starting with a Fin request from the side that want to close the connection lets say its the client. After receiving the Fin request the server sends an ACK along with a FIN Request of its own. The client sends back an Ack at the end leading to the termination of the connection.

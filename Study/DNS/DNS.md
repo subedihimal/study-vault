@@ -1,0 +1,1 @@
+Main terms for DNS
