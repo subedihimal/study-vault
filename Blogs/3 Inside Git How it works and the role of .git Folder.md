@@ -11,7 +11,7 @@ After u initialize a folder with "git init" command, git creates a folder name "
 	
 	**Branching in Git**
 	Branching can be utilized when you are working on a experimental or new feature and only want to update the main version of the project after you have completed the feature.
-	![[blog3.png]]
+	![[Blogs/images/2.png]]
 	---
 	###Exploring git folder structure
 	

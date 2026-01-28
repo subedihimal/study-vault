@@ -14,10 +14,10 @@ Basics Need of authentication
 	![[Study/authentication and authorization/images/1.png]]
 
 	###Problem can occur in micro-service architecture like the session storage being hit a lot of times causing unnecessary traffic
-	![[2.png]]
+	![[Study/authentication and authorization/images/2.png]]
 - Tokens: stateless
 	No data storage happens in the server side. Every request is treated as independent request.
-	![[3.png]]
+	![[Study/authentication and authorization/images/3.png]]
 	You don't have to do a db call every time in each service you can just have a auth service that deciphers the token and lets you know if the user is valid or not.
 	The token can be deciphered with a secret key and it includes data about the user.
 ## Deep Dive into Token Based Authentication
@@ -34,7 +34,7 @@ z -> last part -> signature
 Each part is implemented in form of json except signature and are encoded in base64 encoding
 
 We use signing algorithm to ensure no one has tempered with the token.
-![[4.png]]
+![[Study/authentication and authorization/images/4.png]]
 
 ## JWT IMPLEMENTATION IN MICROSERVICE ARCHITECTURE
 

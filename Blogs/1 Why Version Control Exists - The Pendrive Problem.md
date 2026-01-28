@@ -9,7 +9,7 @@ Finding solution to this problem led to the development and the existence of **v
 
 
 #### The Pendrive Analogy in Software Development
-![[blog1.jpg]]
+![[1.jpg]]
 
 Lets  imagine you are working on your next big app "Tinder But  for Dogs". The project is a huge success and u need to add a payment feature to earn some money for the hard work. You don't know how to build the payment feature and u ask your good friend Tommy for some help. Now, you  have to provide the source code to Tommy. You think for a while and get a brilliant idea to use a USB pen-drive,  what could go wrong ? right,  Well as brilliant as the solution may sound, like the "Tinder but for dogs" idea u had, here are some problems that may occur.
 - You will need to physically move the pen drive from your house to your friends every-time u make and update and vice-versa.
