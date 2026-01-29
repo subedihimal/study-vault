@@ -2,7 +2,6 @@
 tags:
   - Blogs
 ---
-
 Transmission Control Protocol (TCP) is a reliable protocol which governs the transfer of data over the internet. It is needed as without a concrete set of rules different types of devices running different software between them wont be able to interact with each other. And the whole internet as we know now wont be possible.
 
 **Problems TCP solves**
