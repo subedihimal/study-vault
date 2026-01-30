@@ -2,68 +2,20 @@
 tags:
   - Blogs
 ---
-DNS stands for Domain Name System
+DNS stands for Domain Name System, it a distributed system made up of various servers working together to translate the domain name for example "abc.com" into its actual ip address.  The ip address is the actual address where the website services can be accessed from. DNS records are needed to ensure that these webpages can be accessed via their domain name and we don't need to remember or use the actual ip while trying to access these webpages or services.
 
+**NS Record**
+NS or Name Server Record is a type of dns record which tells you which dns providers server are authoritative for the dns you are searching for. These dns provider servers store **all DNS records** for that domain, such as A, AAAA, CNAME, MX, and TXT records. NS record generally point towards big DNS hosting providers such as godaddy,namecheap,cloudfare.
 
-## Topics to Cover
+Some important DNS Record Types Explained in short:
 
-1. What DNS is (explained in very simple terms)
-    
-2. Why DNS records are needed
-    
-3. What an **NS Record** is (who is responsible for a domain)
-    
-4. What an **A Record** is (domain → IPv4 address)
-    
-5. What an **AAAA Record** is (domain → IPv6 address)
-    
-6. What a **CNAME Record** is (one name pointing to another name)
-    
-7. What an **MX Record** is (how emails find your mail server)
-    
-8. What a **TXT Record** is (extra information and verification)
-    
-9. How all DNS records work together for one website
-    
+- **A Record** -> Refers to the domain address in ipv4 format
+- **AA Record** -> Refers to the domain address in ipv6 format
+- CName -> Maps one domain to another domain Eg: (www.google.com is a cname for google.com)
+- MX Server -> Specifies which domain server receives email for the domain
+- TXT Record -> TXT record is a record that stores text information associated with the domain. Commonly used for domain ownership verification.
 
-## Suggestions
-
-1. Start with the question: _“How does a browser know where a website lives?”_
-    
-2. Explain DNS as the **phonebook of the internet**
-    
-3. Introduce **one record at a time**, no jumping
-    
-4. Use simple, real-life examples (house address, contact name, post office)
-    
-5. Avoid deep protocol or RFC language
-    
-6. Explain **what problem each record solves**, not just definitions
-    
-7. Show how a single domain uses multiple records together
-    
-8. Clear common beginner confusion gently:
-    
-    - A vs CNAME
-        
-    - NS vs MX
-        
-9. Keep language conversational and reassuring
-    
-
-## Diagram Ideas
-
-1. Browser → DNS → Server (high-level flow)
-    
-2. Domain name to IP mapping using A / AAAA records
-    
-3. CNAME pointing one domain name to another
-    
-4. Email routing using MX records
-    
-5. Simple DNS hierarchy showing NS records
-    
-6. One complete DNS setup for a small website
-    
-
-Submit your blog link *
+**Example Scenario How they all work together**
+When you visit **`www.abc.com`**, the dns system first looks at the www in the **CNAME**
+pointing towards **abc.com**. The DNS then looks up **`abc.com`** and finds the **A Record**
+and the **AAAA Record** of the server hosting the website. This gives the actual address of where the servers of abc.com are. Now your browser is able to access the website. If you send email to @abc.com then all the traffics are routed to the **MX Record** of that particular url and the **TXT Record** is used to verify the ownership of the email through SPF?DKIM checks. All these records are stored in the DNS provider's authoritative servers, which are pointed towards by the **NS Record** ensuring everything works as intended and the end-user can browse the internet without having to deal with all the complex internal working mechanism.
