@@ -4,3 +4,7 @@
 4. https://subedihimal.hashnode.dev/understanding-network-devices
 5. https://subedihimal.hashnode.dev/tcp-vs-udp-when-to-use-what-and-how-tcp-relates-to-http
 6. https://subedihimal.hashnode.dev/tcp-working-3-way-handshake-and-reliable-communication
+7. https://subedihimal.hashnode.dev/dns-record-types-explained
+8. https://subedihimal.hashnode.dev/getting-started-with-curl
+9. https://subedihimal.hashnode.dev/how-dns-resolution-works
+10. https://subedihimal.hashnode.dev/how-a-browser-works-a-beginner-friendly-guide-to-browser-internals
