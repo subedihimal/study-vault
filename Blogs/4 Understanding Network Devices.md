@@ -11,7 +11,7 @@ A modem is basically a device that converts digital signals that is understood b
 
 **Break-Down of how router knows device to transfer the package to**
 
-![[Blogs/images/3.png]]![[Blogs/images/4.png]]
+![[images/3.png]]![[images/4.png]]
 
 Now lets dive Into Switches and Hubs
 Switches and Hubs are two types of device that are used for similar work that is to increase the number of device connected to the network via wires. Generally via ethernet cable and RJ45 jack. Although they have the same task they do have some important differences they are :

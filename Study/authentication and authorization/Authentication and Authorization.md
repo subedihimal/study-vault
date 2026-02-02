@@ -11,13 +11,13 @@ Basics Need of authentication
 **How to keep the user authenticated**
 - Session: stateful
 	Some info is stored in the server side. This storage is used to check if user is valid or not
-	![[Study/authentication and authorization/images/1.png]]
+	![[10.png]]
 
 	###Problem can occur in micro-service architecture like the session storage being hit a lot of times causing unnecessary traffic
-	![[Study/authentication and authorization/images/2.png]]
+	![[11.png]]
 - Tokens: stateless
 	No data storage happens in the server side. Every request is treated as independent request.
-	![[Study/authentication and authorization/images/3.png]]
+	![[12.png]]
 	You don't have to do a db call every time in each service you can just have a auth service that deciphers the token and lets you know if the user is valid or not.
 	The token can be deciphered with a secret key and it includes data about the user.
 ## Deep Dive into Token Based Authentication
@@ -34,13 +34,13 @@ z -> last part -> signature
 Each part is implemented in form of json except signature and are encoded in base64 encoding
 
 We use signing algorithm to ensure no one has tempered with the token.
-![[Study/authentication and authorization/images/4.png]]
+![[13.png]]
 
 ## JWT IMPLEMENTATION IN MICROSERVICE ARCHITECTURE
 
 Rather then having each service hit the authentication service every time there is internal transfer of data. We can create an API gateway that acts as a barrier before u are able to interact with the micro service.
 The micro services stay in a type of intranet only accessible via the api gateway.
 
-![[5.png]]
+![[14.png]]
 **Authorization**
 Defining what you are allowed to do as a valid user in the platform.

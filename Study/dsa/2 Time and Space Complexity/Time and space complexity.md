@@ -36,7 +36,7 @@ for(int i=1; i<n; i++){
 }
 ```
 
-![[img1.jpeg]]
+![[16.jpeg]]
 
 Answer: O(n^2)
 If two loop and inside loop doesn't depend on outer loop then shortcut the answer is O(n^2)
@@ -50,7 +50,7 @@ for(int i=1;i<n; i++){
 }
 ```
 
-![[img2.jpeg]]
+![[17.jpeg]]
 
 Answer: O(n^2)
 4.
@@ -61,7 +61,7 @@ for(int i=1; i<n; i++){
 	}
 }
 ```
-![[img3.jpeg]]
+![[18.jpeg]]
 Answer: O(n^3)
 
 5.

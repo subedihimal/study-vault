@@ -11,3 +11,5 @@ The working mechanism of DNS.
 5. The top level domain Server provides the authoritative DNS server's ip
 6. The Authoritative DNS server gives the actual ip address of the website
 7. The Browser uses that ip to access the website
+
+![[23.png]]

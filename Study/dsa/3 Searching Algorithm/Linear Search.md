@@ -3,7 +3,7 @@ Finds the element by checking each item one by one form the start until the targ
 
 Time Complexity: O(n)
 
-![[linearsearch.png]]
+![[19.png]]
 
 Code example of linear search 
 ```java

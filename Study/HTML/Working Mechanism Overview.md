@@ -1,8 +1,11 @@
 **Browser architecture Overview**
-![[Study/HTML/images/1.png]]
+![[20.png]]
+
+- Disk API: For interacting with the os
+
 
 **HTML Flow Overview**
-![[Study/HTML/images/2.png]]
+![[21.png]]
 
 - HTML : Raw html code
 - CSS: Raw css code
@@ -13,14 +16,43 @@
 - CSSOM: DOM but for css
 
 **Parsing in depth**
-![[Study/HTML/images/3.png]]
+![[22.png]]
 
 Here from the figure 1+2* 3 is converted into BODMAS equivalent tree, where multiplication happens first then the addition happens
 
 **Web Parsing**
+	Parser lets u know if there is error in the code (Validation check). Also does tokens, tokenization and tree creation.AST (Abstract Syntax Tree) comes under parser. After its sure that dom tree will be made without any error in the parser then then actual dom tree is created.
 Conventional Parsing: Follows all the rules properly
 Un-Conventional Parsing: Isn't strict with rules
 
 **Why html goes through un-conventional parsing ?**
 - Not case sensitive
-- Error Friendly
+- Error Friendly 
+
+
+
+
+
+**WWW**
+
+api.chaicode.com = API Server
+imags.chaicode.com = Images
+
+www.chaicode.com = Web server
+even if u go to chaicode.com it redirects to www.chaicode.com
+www means its a webserver
+**Some Modern websites don't follow this, It's just a standard, but google does follow the www standard**
+If a user goes to www he expects a HTML
+
+### **CDN (Content Delivery Network)**
+
+A CDN stores cached copies of your website’s static content (images, CSS, JS, videos, etc.) on servers around the world, so users can load your site faster from the nearest location.
+
+ **If you use a hosting provider that includes CDN (e.g., Cloudflare, AWS CloudFront):**
+
+You don't have to host your website with them, but **if your DNS is managed by Cloudflare or your site is integrated with AWS CloudFront**, the CDN automatically accelerates your content.
+
+**If you host your website on your own server:**
+
+You can still use a CDN by configuring it through any CDN provider (Cloudflare, CloudFront, Fastly, Akamai, etc.).  
+CDNs pull content from your **origin server** and cache it globally.
