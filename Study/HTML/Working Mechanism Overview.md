@@ -15,6 +15,32 @@
 - DOM: Document Object Model is a tree like structure that contain all the HTML elements in structured manner.
 - CSSOM: DOM but for css
 
+**Frame Constructor**
+The Frame Constructor converts the DOM + CSS into the visual "boxes" (layout frames) that the browser uses to compute layout and draw the webpage.The Frame Constructor converts the DOM + CSS into the visual "boxes" (layout frames) that the browser uses to compute layout and draw the webpage.
+This tree contains all the _visual boxes_ the browser will actually place on screen.
+Not every DOM element becomes a box, and some boxes are created even without DOM nodes.
+
+**Reflow**
+Reflow (also called **layout**) calculates:
+- The size of each element
+    
+- How much space it needs
+    
+- Line breaks, positions, margins, padding
+    
+- Where every box should be placed on the page
+
+Panting
+Painting is where the browser decides:
+
+- Which pixels to draw
+    
+- Colors, borders, backgrounds
+    
+- Text glyphs
+    
+- Shadows, gradients, images
+
 **Parsing in depth**
 ![[22.png]]
 
