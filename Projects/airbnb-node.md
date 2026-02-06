@@ -9,6 +9,7 @@ Second Brain App requirements saved in messenger
 
 TO ALL
 add rate limiter
+Frontend -Sadcn then taiwind then ai for css
 
 ### Hotel Service
 add edit hotel api
