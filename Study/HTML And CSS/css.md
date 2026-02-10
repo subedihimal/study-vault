@@ -1,4 +1,4 @@
-CSS implements design according to **Line + Specificity**. It prioritizes the specificity of the selector first, then the line in which the code is written. Css reads the code form top to bottom and the design that comes later i prioritized before the earlier one given it doesn't have broader specificity compared to previous line.
+CSS implements design according to **Line + Specificity**. It prioritizes the specificity of the  selector first, then the line in which the code is written. Css reads the code form top to bottom and the design that comes later i prioritized before the earlier one given it doesn't have broader specificity compared to previous line.
 
 ![[24.png]]
 
@@ -8,3 +8,10 @@ Least Opinionated to more opinionated.
 3. Bootstrap
 
 ### Flex Box
+
+**Default Layout of flexbox**
+![[27.png]]
+
+**When you do `flex-direction: row`**
+![[28.png]]
+**PROPER NOTES IN COPY**
