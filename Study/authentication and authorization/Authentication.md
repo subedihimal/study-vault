@@ -39,4 +39,7 @@ The micro services stay in a type of intranet only accessible via the api gatewa
 ![[14.png]]
 
 
-
+# Refresh Token
+Way in which you are able to reissue or refresh JWT Token. (User doesn't have to manually login again)
+JWT -> short lived
+Refresh Token -> auto-request new jwt token.

@@ -1,3 +1,8 @@
+---
+tags:
+  - study
+---
+
 ![[15.png]]
 
 As shown from the figure 

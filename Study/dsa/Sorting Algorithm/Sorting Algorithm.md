@@ -1,1 +1,2 @@
-[[Selection Short]]
+[[Selection Sort]]
+[[Bubble Sort]]

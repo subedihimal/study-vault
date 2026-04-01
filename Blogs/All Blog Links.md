@@ -1,3 +1,8 @@
+---
+tags:
+  - Blogs
+---
+
 1. https://subedihimal.hashnode.dev/why-version-control-exists-the-pendrive-problem
 2. https://subedihimal.hashnode.dev/git-for-beginners-basics-and-essential-commands
 3. https://subedihimal.hashnode.dev/inside-git-how-it-works-and-the-role-of-git-folder

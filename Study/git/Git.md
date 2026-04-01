@@ -35,12 +35,16 @@ Git allows you to track different versions of a project over time.
 
 **Fixing Errors or mistakes in commit**
 
+- `git restore .`
+	Restores all the modified changes to the last commit
+- `git restore --staged .`
+	Removes all the staged changes
 - `git revert <hash>`
 	Creates a new commit that is negative of the commit u want to revert
 - `git reset --hard <hash>`
 	Puts head to the commit mentioned resulting in all the commits after that hash being deleted.
 - `git reset <hash>` -> without the --hard
-	Puts the head to the commit and all the changes afte it is kept in the staging area
+	Puts the head to the commit and all the changes after it is kept in the staging area
 
 **Branches In Git**
 
