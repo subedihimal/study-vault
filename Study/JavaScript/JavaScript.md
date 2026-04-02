@@ -1,0 +1,5 @@
+---
+tags:
+  - study
+---
+[[JavaScript Introduction]]
