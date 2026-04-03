@@ -34,3 +34,44 @@ function sayHi() {
 ```
 *Here unlike a variable which assigns the value to the variable when the execution reaches that line in the execution phase. **Body of functions are assigned to the function name in the memory phase only***
 
+
+
+### Is let/ const Hoisted ??
+
+-> Yes, but it don't allow you to use it before value is assigned. Its called
+**Temporal Dead Zone**
+	The Temporal Dead Zone is the time between when a variable is **declared (hoisted)** and when it is **initialized**, during which accessing it throws an error.
+ Applies to:
+- `let`
+- `const`
+
+![[36.png]]
+
+---
+## Difference between Function Declaration and Function Expression.
+
+**Function Declaration**
+```js
+test();
+
+function test{
+	console.log("Hello") //Output: Hello
+}
+
+```
+
+**Function Expression**
+```js
+test();
+
+var test = function{
+	console.log("Hello") // Output: Test is not a function Error
+}
+// If you define with let it will also give error due to Temporal Dead Zone.
+
+```
+
+In the above Example:
+
+1 = The whole body of function is also hoisted along with the function name.
+2 = Only variable is hoisted (as `undefined`), function assigned during execution.
