@@ -75,3 +75,5 @@ In the above Example:
 
 1 = The whole body of function is also hoisted along with the function name.
 2 = Only variable is hoisted (as `undefined`), function assigned during execution.
+
+---

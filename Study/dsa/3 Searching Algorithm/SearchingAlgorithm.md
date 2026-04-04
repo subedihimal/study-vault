@@ -1,2 +1,2 @@
 [[Linear Search]]
-[[Binary Search Tree]]
+[[Binary Search]]

@@ -101,3 +101,9 @@ console.log(typeof function(){});// "function"
 console.log(typeof {}); // "object"  
 console.log(typeof []); // "object" (arrays are objects)
 ```
+
+---
+```js
+
+
+```
