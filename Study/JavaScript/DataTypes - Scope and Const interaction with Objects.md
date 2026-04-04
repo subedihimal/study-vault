@@ -6,7 +6,7 @@
 **Primitive DataTypes (Stored Directly in Stack so fast access) :** simple, immutable values stored directly (Number, String, Boolean, Undefined, Null, Symbol, BigInt).
 
  **Non-Primitive Data types (Reference stored in stack, actual data in heap):** complex values stored by reference, like Objects, Arrays, and Functions
- 
+
 ---
 **Const and Objects**
 ```js
@@ -103,7 +103,3 @@ console.log(typeof []); // "object" (arrays are objects)
 ```
 
 ---
-```js
-
-
-```
