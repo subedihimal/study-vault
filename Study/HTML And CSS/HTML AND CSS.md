@@ -2,5 +2,5 @@
 tags:
   - study
 ---
-[[html]]
-[[css]]
+[[Html]]
+[[Css]]
