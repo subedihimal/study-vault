@@ -18,6 +18,9 @@ var result = test(test1); // Output is 15
 ---
 ## ForEach Function (Same as map but changes the same array and no return )
 
+**Foreach expects a synchronous function - It doesn't wait for promises**  *No way to Break or Stop a ForEach loop other then throwing exception*
+
+
 ```js
 let fruits = [ "apple", "mango", 32, true ];
 
@@ -25,7 +28,7 @@ function printKardo(element){
 	console.log(element);
 }
 
-fruits.forEach(printKardo); // This calls printKardo for each an every elements                                 of the array fruits
+	fruits.forEach(printKardo); // This calls printKardo for each an every elements                                 of the array fruits
 ```
 
 ```js
