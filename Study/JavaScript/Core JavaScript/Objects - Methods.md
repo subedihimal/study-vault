@@ -97,6 +97,85 @@ console.log(againObj);
   
 console.log(best);  
 // { name: "Himal", ability: 80, stealth: undefined }
+```
 
 
+----
+**Freeze and seal Methods**
+
+```js
+const arr = {
+    artifact: "Obsidian",
+    location: "Hall A, Case 3",
+    locked: true
+}
+
+Object.freeze(arr)
+
+delete arr.artifact; // Wont Work as object is Freeze
+arr.location = "Jawlakhel" // Wont work
+```
+
+```js
+//Seal add edit but no delete and add
+const arr = {
+    artifact: "Obsidian",
+    location: "Hall A, Case 3",
+    locked: true
+}
+
+Object.seal(arr)
+arr.location = "Jawlakhel" // Allows editing existing data
+
+
+delete arr.artifact; // Wont Work as object is Freeze
+
+```
+
+---
+## Define property and Define Properties
+
+defineProperty gives you access to various other properties of the object like writable, enumerable and configurable
+```js
+const secureArtifacts = { name : "Ruby Pendant"}
+
+Object.defineProperty(secureArtifacts, "catelogId" , {
+	value: "Sec-999",
+	writable: false,
+	enumerable: true,
+	configurable: false
+});
+
+console.log(secureArtifacts) 
+//Output: { name: 'Ruby Pendant', catelogId: 'Sec-999' }
+
+
+secureArtifacts.catelogId = "test";     // As writable is false wont change
+
+
+for(const[key, value] of Object.entries(secureArtifacts)){
+	console.log(`${key}: ${value}`);  // If enurable is false it wont show catelogId Currently it is true so it shows categoryId details
+}
+
+
+//To check this properties
+console.log(Object.getOwnPropertyDescriptor(secureArtifacts, "catelogId"));
+```
+
+**Object.defineProperties**
+```js
+const obj = {};  
+  
+Object.defineProperties(obj, {  
+name: {  
+value: "Himal",  
+writable: false  
+},  
+age: {  
+value: 22,  
+writable: true  
+}  
+});  
+  
+console.log(obj);
 ```

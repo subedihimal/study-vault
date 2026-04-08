@@ -156,3 +156,10 @@ const dsc = [...arr].sort((a,b)=> b-a);// [100, 90, 42, 25, 8, 3]
 
 console.log(arr); // [100, 25, 3, 42, 8, 90] Not effected as spread operator is                        used
 ```
+
+---
+### Converting Anything to array we use form
+
+```js
+const convertedArray = Array.from(test);
+```

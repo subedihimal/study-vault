@@ -1,7 +1,7 @@
 
 ## Higher Order Function
 
-A function that takes another function as a parameter.
+A function that takes another function as a parameter. OR return them as result
 
 ```js
 function test(AnyOtherFunction){
@@ -15,6 +15,14 @@ function test1(){
 var result = test(test1); // Output is 15
 ```
 
+
+```js
+function test(){
+	return function ram(){
+		return 33;
+	}
+}
+```
 ---
 ## ForEach Function (Same as map but changes the same array and no return )
 
