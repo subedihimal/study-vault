@@ -64,7 +64,7 @@ function test{
 ```js
 test();
 
-var test = function{
+var test = function() {
 	console.log("Hello") // Output: Test is not a function Error
 }
 // If you define with let it will also give error due to Temporal Dead Zone.
