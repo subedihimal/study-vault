@@ -115,3 +115,37 @@ public void missingg(){
         System.out.println(answer); 
     }
 ```
+
+---
+Book Allocation Problem Solution
+```js
+public void BookAllocation(){
+	int[] arr = {12, 34, 67, 90};
+	int students = 2;
+	int start = 90, end = 203;
+	int ans=0;
+	while(start<=end){
+		int mid = start+ ((end-start)/2);
+		int pages=0, count=1;
+
+		for(int i=0;i<=arr.length-1;i++){
+			pages += arr[i];
+			if(pages>mid){
+				++count;
+				pages = arr[i];
+			}
+		}
+		if(count<students){
+			ans = mid;
+			end = mid-1;
+		}else{
+			start = mid+1;
+			
+		}
+		
+	}
+	System.out.println(ans);
+}
+```
+---
+**Painter Partition Problem**
