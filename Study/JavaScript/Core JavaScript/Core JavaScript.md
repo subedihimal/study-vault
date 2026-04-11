@@ -1,5 +1,5 @@
 [[Arrays and Strings]]
-[[Functions]]
+[[Study/JavaScript/Core JavaScript/Functions/Functions]]
 [[Introduction and DataTypes]]
 [[Loops]]
 [[Objects and Prototypes]]

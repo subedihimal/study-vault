@@ -32,7 +32,7 @@ greet.call(user, 32)
 
 ---
 
-**Apply** (Can Array after modifying `this`)
+**Apply** (Can Pass Array after modifying `this`)
 
 - Calls the function **immediately**
 - Sets `this` to the object you pass
@@ -51,3 +51,19 @@ const user = { name: "Himal" };
   
 greet.apply(user, [21, "Kathmandu"]);
 ```
+
+---
+
+*Also Can be used with Math.max()*
+```js
+let a =[1,2,3,4];
+let b = Math.max(...a);               //Same 
+let c = Math.max.apply(null, a);       // Same
+
+console.log(b) //Output: 4
+console.log(c) //Output: 4
+```
+
+---
+### Bind
+**Major Difference is It returns a new function**
