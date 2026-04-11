@@ -163,3 +163,16 @@ console.log(arr); // [100, 25, 3, 42, 8, 90] Not effected as spread operator is 
 ```js
 const convertedArray = Array.from(test);
 ```
+
+---
+Spread Operator in array 
+Used to sallow copy array also same as in object
+```js
+let a = [1,2,3,4,5];
+
+let b = [...a];
+
+b[5] = 3;
+console.log(a); 
+
+```
