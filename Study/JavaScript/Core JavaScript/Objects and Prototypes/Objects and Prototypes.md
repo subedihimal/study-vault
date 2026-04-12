@@ -2,3 +2,4 @@
 [[Objects - Methods]]
 [[Prototypes]]
 [[This]]
+[[New]]

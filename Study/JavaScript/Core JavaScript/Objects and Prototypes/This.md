@@ -151,8 +151,11 @@ console.log(detachedBow());
 ```
 
 ---
+
 ![[42.png]]
 Output: Himal Takes a bow
 
 ![[43.jpeg]]
 Undefined Takes a bow
+
+---

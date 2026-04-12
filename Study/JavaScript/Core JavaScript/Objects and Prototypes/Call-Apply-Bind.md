@@ -1,8 +1,8 @@
 
-### Call and Apply
+## Call and Apply
 Call and apply allows you to manually set the value of `this` in a function and also run it immediately like a normal function call.
 
-**Call** (Can Pass datatype after modifying `this`)
+### Call (Can Pass datatype after modifying `this`)
 
 - Calls the function **immediately**
 - Sets `this` to the object you pass
@@ -32,7 +32,7 @@ greet.call(user, 32)
 
 ---
 
-**Apply** (Can Pass Array after modifying `this`)
+### **Apply** (Can Pass Array after modifying `this`)
 
 - Calls the function **immediately**
 - Sets `this` to the object you pass
@@ -54,7 +54,7 @@ greet.apply(user, [21, "Kathmandu"]);
 
 ---
 
-*Also Can be used with Math.max()*
+*Apply can Also Can be used with Math.max()*
 ```js
 let a =[1,2,3,4];
 let b = Math.max(...a);               //Same 
@@ -67,3 +67,39 @@ console.log(c) //Output: 4
 ---
 ### Bind
 **Major Difference is It returns a new function**
+```js
+function reportDelivery(location, status){
+    return `${this.name} at ${location}: ${status}`
+}
+const deliveryBoy = {name: "Ranveer"};
+
+
+const returnedFunction = reportDelivery.bind(deliveryBoy, "Nepal", "Delivered")
+
+console.log(returnedFunction());
+
+
+```
+---
+
+Implementing Call - Apply and Bind All - Together
+```js
+function reportDelivery(location, status){
+    return `${this.name} at ${location}: ${status}`
+}
+const deliveryBoy = {name: "Ranveer"};
+
+console.log(reportDelivery.call(deliveryBoy, "Nepal", "Delivered")); 
+//Ranveer at Nepal: Delivered
+console.log(reportDelivery.apply(deliveryBoy, ["Nepal", "Delivered"])); //Ranveer at Nepal: Delivered
+console.log(reportDelivery.bind(deliveryBoy, "Nepal", "Delivered")) 
+//❌ Function: bound reportDelivery
+
+
+//Actual way to do it with bind
+const returnedFunction = reportDelivery.bind(deliveryBoy, "Nepal", "Delivered") // Ranveer at Nepal: Delivered
+
+console.log(returnedFunction());
+```
+
+---
