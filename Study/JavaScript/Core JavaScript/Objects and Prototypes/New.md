@@ -68,12 +68,12 @@ console.log(auto2.run()); //Auto UP-2 running on Agra-Mathura
 ```
 
 
-| Instance           | Constructor                                                                            | Factory Function                                                               |
-| ------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Memory             | Methods live on `prototype` → shared once<br>**10,000 objects = 1 shared method copy** | Methods recreated per object.<br>**10,000 objects = 10,000 method copies**<br> |
-| Private state      | No real privacy (everything on `this`)                                                 | Closures allow real private variables                                          |
-| `instanceof`       | Works (`obj instanceof Constructor` → true)                                            | Always false (no prototype link)                                               |
-| Forgetting `new`   | Can break or pollute global (`this` issue)                                             | No issue as no need of `new` (normal function call)                            |
-| `this` behavior    | Can break in callbacks, needs `.bind()`/arrow                                          | No `this` usage required                                                       |
-| Return flexibility | Always returns same constructed object                                                 | Can return different shapes conditionally                                      |
-| Inheritance        | Works naturally with `prototype` / `class`                                             | Not compatible with `class` inheritance                                        |
+| Instance           | Constructor                                                                                                                          | Factory Function                                                               |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| Memory             | Methods live on `prototype` → shared once. *(Shared Reference But `this` is different)*<br>**10,000 objects = 1 shared method copy** | Methods recreated per object.<br>**10,000 objects = 10,000 method copies**<br> |
+| Private state      | No real privacy (everything on `this`)                                                                                               | Closures allow real private variables                                          |
+| `instanceof`       | Works (`obj instanceof Constructor` → true)                                                                                          | Always false (no prototype link)                                               |
+| Forgetting `new`   | Can break or pollute global (`this` issue)                                                                                           | No issue as no need of `new` (normal function call)                            |
+| `this` behavior    | Can break in callbacks, needs `.bind()`/arrow                                                                                        | No `this` usage required                                                       |
+| Return flexibility | Always returns same constructed object                                                                                               | Can return different shapes conditionally                                      |
+| Inheritance        | Works naturally with `prototype` / `class`                                                                                           | Not compatible with `class` inheritance                                        |
