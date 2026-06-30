@@ -148,4 +148,3 @@ public void BookAllocation(){
 }
 ```
 ---
-**Painter Partition Problem**

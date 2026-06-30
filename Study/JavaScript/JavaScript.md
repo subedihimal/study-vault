@@ -2,4 +2,4 @@
 tags:
   - study
 ---
-[[Core JavaScript]]
+[[Core JavaScript]]****

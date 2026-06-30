@@ -45,7 +45,7 @@ add(1,2);
 
 ```
 ---
-## IIFE
+## IIFE (Immediately Invoked Function Expression)
 
 syntax `()()`
 ```js
